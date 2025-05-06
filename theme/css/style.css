@@ -188,11 +188,11 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .bg-primary-dark {
-  background: #ff4528;
+  background: rgb(255, 68.8414634146, 40);
 }
 
 .bg-primary-darker {
-  background: #f42100;
+  background: rgb(244, 32.7317073171, 0);
 }
 
 .bg-dark {
@@ -1513,7 +1513,7 @@ ul.dropdown-menu li {
 }
 
 .footer {
-  padding-bottom: 10px;
+  padding: 40px;
   background: #000;
 }
 .footer .copyright a {

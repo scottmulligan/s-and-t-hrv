@@ -3,7 +3,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         # FIX: Replace this email with recipient email
-        $mail_to = "USEREMAIL@gmail.com";
+        $mail_to = "scottymulligan+testmail@gmail.com";
         
         # Sender Data
         $subject = trim($_POST["subject"]);
@@ -33,6 +33,7 @@
             # Set a 200 (okay) response code.
             http_response_code(200);
             echo "Thank You! Your message has been sent.";
+            phpinfo();
         } else {
             # Set a 500 (internal server error) response code.
             http_response_code(500);
