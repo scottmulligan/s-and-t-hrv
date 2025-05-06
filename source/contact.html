@@ -14,7 +14,7 @@
 
         <div class="row">
           <div class="col-lg-8">
-            <form id="contact-form" class="contact__form " method="post" action="mail.php">
+            <form netlify id="contact-form" class="contact__form " method="post" name="contact" data-netlify="true" onSubmit="submit">
               <!-- form message -->
               <div class="row">
                 <div class="col-12">
@@ -25,7 +25,7 @@
               </div>
 
               <div class="form-group">
-                <select class="form-control" id="exampleFormControlSelect1">
+                <select class="form-control" id="formControlSelect1">
                   <option>I Need help in ...</option>
                   <option>Software Design</option>
                   <option>Development cycle</option>

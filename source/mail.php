@@ -20,7 +20,7 @@
         
         # Mail Content
         $content = "Name: $name\n";
-        $content = "Topic: $subject\n";
+        #$content = "Topic: $subject\n";
         $content .= "Email: $email\n\n";
         $content .= "Message:\n$message\n";
 
